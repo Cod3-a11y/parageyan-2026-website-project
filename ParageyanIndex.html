@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#741f2d">
+<meta name="description" content="Parageyan 2026 at Basilan State College.">
+<title>Parageyan 2026 | Basilan State College</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="ParageyanStyle.css">
+
+<style>
+/* Compatibility fixes for the existing Activity 1 stylesheet */
+.site-header {
+  background: linear-gradient(120deg, #0b2345, #1856a3) !important;
+  color: #fff;
+}
+.site-header.scrolled {
+  background: rgba(8, 31, 64, .97) !important;
+}
+.hero-section {
+  position: relative;
+  min-height: 100svh;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff !important;
+  background: linear-gradient(125deg, rgba(7,29,59,.98), rgba(24,86,163,.94) 55%, rgba(17,59,112,.98)) !important;
+}
+.hero-section .hero-content { position: relative; z-index: 2; }
+.hero-section .hero-content h1,
+.hero-section .hero-content .hero-subtitle { color: #fff !important; }
+.hero-section .hero-content > p { color: rgba(255,255,255,.88) !important; }
+.hero-section .hero-content h1 em { color: #cce3ff !important; }
+.hero-section .section-tag.light { color: #cce3ff !important; }
+.hero-section .hero-bottom {
+  position: relative;
+  z-index: 2;
+  background: rgba(4,19,41,.45) !important;
+}
+.hero-section .countdown-wrap { color: #fff !important; }
+.hero-section .countdown strong { color: #d8eaff !important; }
+.hero-section .btn-light {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #dcecff !important;
+  color: #123b70 !important;
+  text-align: center;
+  border-radius: 999px;
+}
+.hero-section .outline-button { color: #fff !important; }
+.site-nav { gap: clamp(10px, 2vw, 26px); }
+.site-nav a { display: inline-block; white-space: nowrap; }
+@media (max-width: 800px) {
+  .site-header { padding: 10px 0 !important; }
+  .nav-wrap { gap: 10px; }
+  .brand { min-width: 0; }
+  .brand strong { white-space: nowrap; }
+  .menu-toggle { display: block !important; flex: 0 0 42px; position: relative; z-index: 1002; }
+  .main-nav.site-nav {
+    display: none !important;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: auto !important;
+    width: min(82vw, 320px) !important;
+    max-height: none !important;
+    padding: 100px 28px 28px !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 24px !important;
+    overflow-y: auto !important;
+    background: #081f40 !important;
+    box-shadow: -15px 0 40px rgba(0,0,0,.2) !important;
+    z-index: 1001 !important;
+  }
+  .main-nav.site-nav.open { display: flex !important; }
+  .main-nav.site-nav a { color: #fff !important; font-size: 16px !important; }
+  .hero-section { min-height: auto; padding-top: 88px; }
+  .hero-content { padding-top: 45px; padding-bottom: 38px; }
+  .hero-section .hero-actions { align-items: stretch; flex-direction: column; }
+  .hero-section .hero-actions .btn-light,
+  .hero-section .hero-actions .outline-button { width: 100%; min-height: 48px; }
+  .hero-section .countdown-wrap { align-items: stretch; flex-direction: column; gap: 18px; padding-top: 20px; padding-bottom: 20px; }
+  .hero-section .countdown { width: 100%; display: flex; justify-content: space-between; gap: 6px; }
+  .hero-section .countdown > div { flex: 1; min-width: 0; padding: 0 6px; }
+}
+</style>
+
+</head>
+<body>
+<div class="page-loader" id="pageLoader"><div class="loader-mark">P26</div><p>Preparing the celebration...</p></div>
+<header class="site-header" id="siteHeader">
+ <div class="container nav-wrap">
+  <a class="brand" href="#home"><div class="brand-seal">P</div><div><strong>PARAGEYAN 2026</strong><span>Basilan State College</span></div></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav class="main-nav site-nav" id="mainNav"><a class="nav-link" href="#home">Home</a><a class="nav-link" href="#about">About</a><a class="nav-link" href="#events">Activities</a><a class="nav-link" href="#schedule">Schedule</a><a class="nav-link" href="#gallery">Gallery</a></nav>
+ </div>
+</header>
+<main>
+<section class="hero-section" id="home"><div class="hero-overlay"></div><div class="container hero-content reveal">
+ <span class="section-tag light">October 03–07, 2026 · BASC</span><h1>PARAGEYAN <em>2026</em></h1><p class="hero-subtitle">Culture. Talent. Unity. Excellence.</p><p>A campus-wide celebration of heritage, student talent, sportsmanship, and community spirit at Basilan State College.</p>
+ <div class="hero-actions"><a class="btn btn-light" href="#events">Explore Activities <span>→</span></a><a class="outline-button" href="#schedule">View Schedule</a></div>
+ </div><div class="hero-bottom"><div class="container countdown-wrap"><div class="countdown-label"><span class="pulse-dot"></span><div><small>Celebrating</small><strong>Parageyan 2026</strong></div></div><div class="countdown"><div><strong>03</strong><span>October</span></div><div><strong>07</strong><span>October</span></div><div><strong>2026</strong><span>Year</span></div></div></div></div>
+</section>
+<section class="intro-section section" id="about"><div class="container">
+ <div class="section-heading centered reveal"><span class="section-tag">The Celebration</span><h2>One campus. Many talents.<br><em>One unforgettable celebration.</em></h2><p>Parageyan brings the BASC community together through cultural expression, friendly competition, creativity, and shared campus pride.</p></div>
+ <div class="intro-grid">
+ <article class="feature-card reveal"><div class="feature-number">01</div><div class="feature-icon">✦</div><h3>Celebrate Culture</h3><p>Honor cultural identity through the opening parade, Indigenous Tribe Floats, mascots, and field demonstrations.</p></article>
+ <article class="feature-card reveal delay-1"><div class="feature-number">02</div><div class="feature-icon">◇</div><h3>Build Connections</h3><p>Strengthen camaraderie among students, colleges, faculty, and the wider BASC community.</p></article>
+ <article class="feature-card reveal delay-2"><div class="feature-number">03</div><div class="feature-icon">★</div><h3>Showcase Excellence</h3><p>Celebrate athletic ability, artistic expression, teamwork, creativity, and sportsmanship.</p></article>
+ </div></div></section>
+<section class="events-section section" id="events"><div class="container">
+ <div class="section-heading split reveal"><div><span class="section-tag light">Official Activities</span><h2>Experience the <em>energy</em> of Parageyan.</h2></div><p>From the opening parade to the final awarding ceremony, Parageyan 2026 features cultural presentations, sports, arts, and community activities.</p></div>
+ <div class="event-grid">
+ <article class="event-card large reveal"><div class="event-art art-cultural"><div class="art-symbol">✺</div><span class="event-badge">Opening</span></div><div class="event-content"><span class="event-no">01</span><h3>Kick-Off Parade &amp; Field Demonstration</h3><p>Colleges present their Indigenous Tribe Floats and mascots, followed by live authentic instruments from Maluso Drum Beaters and a field demonstration by PathFit 3 students.</p><a href="#schedule">See October 3 schedule <span>→</span></a></div></article>
+ <article class="event-card reveal delay-1"><div class="event-art art-sports"><div class="art-symbol">◆</div><span class="event-badge">Athletics</span></div><div class="event-content"><span class="event-no">02</span><h3>Sports Competitions</h3><p>Sports competitions take place throughout the celebration, with championships scheduled for October 6.</p><a href="#schedule">View schedule <span>→</span></a></div></article>
+ <article class="event-card reveal delay-2"><div class="event-art art-music"><div class="art-symbol">♫</div><span class="event-badge">Performances</span></div><div class="event-content"><span class="event-no">03</span><h3>Dance, Music &amp; Theatre</h3><p>Enjoy dance art, dance sport, live band, musical, and theatre competitions.</p><a href="#schedule">View schedule <span>→</span></a></div></article>
+ <article class="event-card reveal"><div class="event-art art-creative"><div class="art-symbol">✎</div><span class="event-badge">Arts &amp; Knowledge</span></div><div class="event-content"><span class="event-no">04</span><h3>Literary Arts, Visual Arts &amp; Quiz Bowl</h3><p>Students put their knowledge and creativity to the test through quiz bowl, literary arts, and visual arts activities.</p><a href="#schedule">View schedule <span>→</span></a></div></article>
+ <article class="event-card reveal delay-1"><div class="event-art art-cultural"><div class="art-symbol">✦</div><span class="event-badge">Campus Life</span></div><div class="event-content"><span class="event-no">05</span><h3>Trade Fair &amp; Larong Pinoy</h3><p>Explore the Trade Fair, join traditional Filipino games, and take part in the Movie Marathon.</p><a href="#schedule">Explore activities <span>→</span></a></div></article>
+ <article class="event-card reveal delay-2"><div class="event-art art-music"><div class="art-symbol">★</div><span class="event-badge">Final Day</span></div><div class="event-content"><span class="event-no">06</span><h3>Cheerdance &amp; Awarding</h3><p>The celebration concludes with cheerdance, final booth judging, the awarding ceremony, and a mini concert on October 7.</p><a href="#schedule">View October 7 <span>→</span></a></div></article>
+ </div></div></section>
+<section class="schedule-section section" id="schedule"><div class="container">
+ <div class="section-heading centered reveal"><span class="section-tag">October 03–07, 2026</span><h2>Calendar of <em>Activities</em></h2><p>Key activities based on the Parageyan 2026 calendar released by Basilan State College.</p></div>
+ <div class="timeline">
+ <div class="timeline-item reveal"><time>OCT 03</time><div class="timeline-marker"></div><div class="timeline-card"><span>Opening Day</span><h3>Parade, Opening Program &amp; Bench Yell</h3><p>Kick-off parade with Indigenous Tribe Floats and mascots (6:30–9:00 AM); opening program (9:00 AM–12:00 NN); bench yell (1:00–4:00 PM); mascot competition (4:00–5:00 PM).</p><small>BaSC Main Campus / Gymnasium</small></div></div>
+ <div class="timeline-item reveal"><time>OCT 04</time><div class="timeline-marker"></div><div class="timeline-card"><span>Competition Day</span><h3>Sports, Arts &amp; Live Band</h3><p>Sports competitions, literary arts, quiz bowl, visual arts, and live band competition.</p><small>Various event venues</small></div></div>
+ <div class="timeline-item reveal"><time>OCT 05</time><div class="timeline-marker"></div><div class="timeline-card"><span>Performance Day</span><h3>Dance Art &amp; Dance Sport</h3><p>Sports competitions continue alongside dance art and dance sport competitions.</p><small>Various event venues</small></div></div>
+ <div class="timeline-item reveal"><time>OCT 06</time><div class="timeline-marker"></div><div class="timeline-card"><span>Championship Day</span><h3>Sports, Music, Theatre &amp; Color Fun Run</h3><p>Sports championship, musical competition, theatre competition, and Color Fun Run.</p><small>Various event venues</small></div></div>
+ <div class="timeline-item reveal"><time>OCT 07</time><div class="timeline-marker"></div><div class="timeline-card"><span>Final Day</span><h3>Cheerdance, Awards &amp; Mini Concert</h3><p>Cheerdance competition, final booth judging, awarding ceremony, and mini concert.</p><small>BaSC event venues</small></div></div>
+ </div><p class="schedule-note">Other listed activities include the Trade Fair, Movie Marathon, and Larong Pinoy. Check official BASC announcements for updates to times or venues.</p>
+ </div></section>
+<section class="statement-section"><div class="statement-pattern"></div><div class="container statement-content reveal"><span class="mini-mark">P26</span><p>Celebrate the spirit of</p><h2>BASILAN.</h2><h2 class="outline-text">COMMUNITY.</h2><h2>EXCELLENCE.</h2></div></section>
+<section class="gallery-section section" id="gallery"><div class="container">
+ <div class="section-heading split reveal"><div><span class="section-tag">Parageyan Moments</span><h2>Feel the <em>celebration.</em></h2></div><p>Highlights of cultural pride, student performance, and sportsmanship during Parageyan 2026.</p></div>
+ <div class="gallery-grid">
+ <figure class="gallery-item tall reveal"><img src="28/parageyan-float.jpg" alt="Parageyan Indigenous Tribe Float" loading="lazy"><figcaption><strong>Indigenous Tribe Float</strong><span>Culture &amp; Pride</span></figcaption></figure>
+ <figure class="gallery-item reveal delay-1"><img src="28/parageyan-field-demonstration.jpg" alt="Parageyan field demonstration" loading="lazy"><figcaption><strong>Field Demonstration</strong><span>Student Performance</span></figcaption></figure>
+ <figure class="gallery-item reveal delay-2"><img src="28/parageyan-taekwondo.jpg" alt="Taekwondo competition during Parageyan" loading="lazy"><figcaption><strong>Taekwondo</strong><span>Sportsmanship</span></figcaption></figure>
+ </div></div></section>
+<section class="contact-section section" id="contact"><div class="container contact-grid">
+ <div class="contact-copy reveal"><span class="section-tag">Stay Connected</span><h2>See you at<br><em>Parageyan 2026.</em></h2><p>Follow official Basilan State College announcements for confirmed schedules, mechanics, venues, and participation guidelines.</p></div>
+ <div class="contact-card reveal delay-1"><div class="contact-item"><span>⌖</span><div><small>Campus</small><strong>Sumagdang, Isabela City, Basilan</strong></div></div><div class="contact-item"><span>✉</span><div><small>Event Information</small><strong>Check official BASC announcements</strong></div></div><div class="contact-item"><span>◎</span><div><small>Event Dates</small><strong>October 03–07, 2026</strong></div></div></div>
+ </div></section>
+</main>
+<footer><div class="container footer-grid"><div class="footer-brand"><div class="brand-seal">P</div><div><strong>PARAGEYAN 2026</strong><span>Basilan State College</span></div></div><p>Celebrating culture, talent, unity, and excellence.</p><a href="#home" class="back-top" aria-label="Back to top">↑</a></div><div class="container footer-bottom"><span>© 2026 Parageyan. For academic/event presentation use.</span><span>Designed for the BASC community.</span></div></footer>
+<script src="ParageyanScript.js"></script>
+</body>
+</html>
